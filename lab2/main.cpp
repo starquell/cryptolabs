@@ -21,7 +21,7 @@ struct RTEA {
              ++i;
              a += b + ((b << 6) ^ (b >> 8)) + (key[i % key.size()] + i);
         }
-        return std::uint64_t{a} << 32 | b;
+        return std:: uint64_t{a} << 32 | b;
     }
 
      [[nodiscard]]
